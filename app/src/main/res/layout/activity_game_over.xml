@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/background"
+    tools:context=".GameOverActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Player"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"
+            android:textSize="72sp"
+            android:background="@color/background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/result"
+            android:text="2"
+            android:textSize="72sp"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:background="#fff"
+            android:textAlignment="center"
+            android:layout_marginTop="@dimen/activity_main_margin"
+            android:layout_width="72dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="WINS!"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"
+            android:textSize="72sp"
+            android:background="@color/background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/home_image"
+                android:src="@drawable/home"
+                android:layout_marginRight="@dimen/activity_game_over_image_margin"
+                android:layout_marginEnd="@dimen/activity_game_over_image_margin"
+                android:layout_width="@dimen/activity_main_bottom_image_size"
+                android:layout_height="@dimen/activity_main_bottom_image_size" />
+            <ImageView
+                android:id="@+id/exit_image"
+                android:src="@drawable/close"
+                android:layout_marginLeft="@dimen/activity_game_over_image_margin"
+                android:layout_marginStart="@dimen/activity_game_over_image_margin"
+                android:layout_width="@dimen/activity_main_bottom_image_size"
+                android:layout_height="@dimen/activity_main_bottom_image_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="frame">#ffa71a</color>
+    <color name="player_a_highlighted">#ff4d4d</color>
+    <color name="player_b_highlighted">#4d4dff</color>
+    <color name="main_activity_button">#e68600</color>
+    <color name="background">#ffbb4d</color>
+    <color name="white">#fff</color>
+</resources>
